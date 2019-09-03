@@ -1,0 +1,33 @@
+{
+  "name": "express-jaeger",
+  "version": "0.0.16",
+  "description": "A simple Express JS middleware to tracing requests wiht Jaeger Tracing.",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "express-jaeger": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "jaeger",
+    "opentracing",
+    "tracing",
+    "middleware"
+  ],
+  "author": {
+    "name": "Fernando Monteiro",
+    "email": "nandobmont@gmail.com",
+    "url": "https://github.com/nandobmont"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jaeger-client": "3.15.0",
+    "opentracing": "0.14.4"
+  }
+}
