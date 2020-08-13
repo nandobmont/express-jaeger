@@ -29,5 +29,10 @@
   "dependencies": {
     "jaeger-client": "3.15.0",
     "opentracing": "0.14.4"
+  },
+  "homepage": "https://github.com/nandobmont/express-jaeger#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nandobmont/express-jaeger.git"
   }
 }
